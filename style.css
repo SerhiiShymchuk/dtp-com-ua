@@ -92,3 +92,16 @@ fieldset {
     height: 35px;
     padding-left: 10px;
 }
+
+.messenegerList .viber {
+    background-image: url(icons/viber.png);
+}
+.messenegerList .telegram {
+    background-image: url(icons/telegram.png);
+}
+.messenegerList .youtube {
+    background-image: url(icons/youtube.png);
+}
+.messenegerList .instagram {
+    background-image: url(icons/instagram.png);
+}
