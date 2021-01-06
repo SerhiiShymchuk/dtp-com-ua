@@ -1,0 +1,169 @@
+<!-- /* титульна сторінка */ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна сторінка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Логотип</h1>
+        <div class="headerContent">
+            <nav >
+                <ul class="navigation">
+                    <li><a>О нас</a></li>
+                    <li><a>Контакты</a></li>
+                    <li><a>Доставка</a></li>
+                    <li><a>Оплата</a></li>
+                    <li><a>Гарантия</a></li>
+                    <li><a>История просмотров</a></li>
+                </ul>
+            </nav>
+
+            <div class="headerBar">
+                <ul class="phones">
+                    <li>0681919842</li>
+                    <li>0633541487</li>
+                </ul>
+                <ul class="toolbar">
+                    <!-- Іконки -->
+                    <li><i class="userProfile" title="Регистрация/Вход"></i></li>
+                    <li><i class="cart" title="Корзина"></i></li>
+                    <li><i class="callback" title="Заказать обратный звонок"></i></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- секція пошуку -->
+        <section class="search">
+            <form class="searchBar">
+                <fieldset class="searchHierarchy">
+                    <select name="Vendor" id="">
+                        <option value="">Марка</option>
+                        <option value="">Audi</option>
+                        <option value="">Volkswagen</option>
+                        <option value="">Nissan</option>
+                        <option value="">Toyota</option>
+                    </select>
+                    <select name="Model" id="">
+                        <option value="">Модель</option>
+                        <option value="">Passat</option>
+                        <option value="">X-trail</option>
+                        <option value="">Camry</option>
+                        <option value="">Focus</option>
+                    </select>
+                    <select name="Modification" id="">
+                        <option value="">Модификация</option>
+                    </select>
+                    <select name="PartCategory" id="">
+                        <option value="">Категория</option>
+                    </select>
+                    <select name="PartName" id="">
+                        <option value="">Запчасть</option>
+                    </select>
+                    <button>Перейти</button>
+                </fieldset>
+                <fieldset class="searchSpecific">
+                    <div>
+                        <label for="snSearch">Поиск по оригинальному номеру</label>
+                        <div>
+                            <input type="text" id="snSearch" placeholder="5Q0907530AM">
+                            <button>Поиск</button>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="vinSearch">Поиск по VIN</label>
+                        <div>
+                            <input type="text" id="vinSearch">
+                            <button>Поиск</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <!-- секція переліку марок автомобілів -->
+        <section>
+            <ul>
+                <li><a>Acura</a></li>
+                <li><a>Alfa Romeo</a></li>
+                <li><a>Aston Martin</a></li>
+                <li><a>Audi</a></li>
+                <li><a>Bentley</a></li>
+                <li><a>BMW</a></li>
+                <li><a>Cadillac</a></li>
+                <li><a>Chevrolet</a></li>
+                <li><a>Chrysler</a></li>
+                <li><a>Citroen</a></li>
+                <li><a>Daewoo</a></li>
+                <li><a>Daihatsu</a></li>
+                <li><a>Dodge</a></li>
+                <li><a>Fiat</a></li>
+                <li><a>Ford</a></li>
+                <li><a>Ford America</a></li>
+                <li><a>GM</a></li>
+                <li><a>Honda</a></li>
+                <li><a>Hummer</a></li>
+                <li><a>Hyundai</a></li>
+                <li><a>Infiniti</a></li>
+                <li><a>Isuzu</a></li>
+                <li><a>Iveco</a></li>
+                <li><a>Jaguar</a></li>
+                <li><a>Jeep</a></li>
+                <li><a>Kia</a></li>
+                <li><a>Lamborghini</a></li>
+                <li><a>Lancia</a></li>
+                <li><a>Land Rover</a></li>
+                <li><a>Lexus</a></li>
+                <li><a>Maserati</a></li>
+                <li><a>Maybach</a></li>
+                <li><a>Mazda</a></li>
+                <li><a>Mercedes</a></li>
+                <li><a>Mini</a></li>
+                <li><a>Mitsubishi</a></li>
+                <li><a>Nissan</a></li>
+                <li><a>Opel</a></li>
+                <li><a>Peugeot</a></li>
+                <li><a>Porsche</a></li>
+                <li><a>Renault</a></li>
+                <li><a>Rolls-Royce</a></li>
+                <li><a>Rover</a></li>
+                <li><a>SAAB</a></li>
+                <li><a>Scion</a></li>
+                <li><a>Seat</a></li>
+                <li><a>Skoda</a></li>
+                <li><a>Smart</a></li>
+                <li><a>Ssang Yong</a></li>
+                <li><a>Subaru</a></li>
+                <li><a>Suzuki</a></li>
+                <li><a>Tesla</a></li>
+                <li><a>Toyota</a></li>
+                <li><a>Volvo</a></li>
+                <li><a>VW</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a>Доставка</a></li>
+            <li><a>Оплата</a></li>
+            <li><a>Гарантія</a></li>
+            <li><a>Програма знижок</a></li>
+            <li><a>Відгуки</a></li>
+        </ul>
+        <ul>
+            <li><a>Viber</a></li>
+            <li><a>Telegram</a></li>
+            <li><a>ютуб</a></li>
+            <li><a>інстаграм</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 17px sans-serif;
+}
+input, select, button {
+    box-sizing: border-box;
+}
+header {
+  display: flex;
+  padding: 0 30px;
+}
+ul {
+  list-style: none;
+}
+fieldset {
+  border: none;
+}
+.headerContent {
+  flex-grow: 1;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.phones {
+  display: flex;
+  gap: 50px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 40px;
+}
+
+.toolbar i {
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-size: contain;
+}
+
+.toolbar .callback {
+  background-image: url(icons/phone-call.png);
+}
+.toolbar .cart {
+  background-image: url(icons/cart.png);
+}
+.toolbar .userProfile {
+  background-image: url(icons/user.png);
+}
+
+.search {
+    max-width: 1100px;
+    margin: auto;
+}
+.searchHierarchy {
+  display: flex;
+
+  gap: 10px;
+}
+.searchHierarchy > select {
+  width: 20%;
+  height: 35px;
+  padding-left: 10px;
+}
+.searchSpecific {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.searchSpecific > div {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchSpecific > div > div {
+  width: 70%;
+  display: flex;
+  gap: 10px;
+}
+.searchSpecific > div > div > input {
+    flex-grow: 1;
+    height: 35px;
+    padding-left: 10px;
+}
