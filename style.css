@@ -134,28 +134,5 @@ footer {
 .social .instagram {
     background-image: url('icons/instagram.png');
 }
-/* product LIST */
-h1 {
-  display: flex;
-  width: 1050px;
-  margin: 30px auto;
-}
-.productList {
-  width: 1100px;
-  margin: auto;
-}
-@media screen and (min-width: 1100px) {
-  table {
-    width: 1100px;
-  }
-}
-table img {
-  max-width: 128px;
-  max-height: 96px;
-}
-td:nth-child(1), td:nth-child(2), td:nth-child(5), td:nth-child(6) {
-  text-align: center;
-}
-td:nth-child(3), td:nth-child(4) {
-  padding: 10px;
-}
+
+

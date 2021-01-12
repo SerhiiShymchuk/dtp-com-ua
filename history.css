@@ -1,0 +1,20 @@
+.filterBtn button {
+    margin: 50px 100px;
+    font-size: 24px;
+}
+table {
+    width: 1100px;
+    margin: auto;
+}
+table img {
+    max-width: 128px;
+    max-height: 96px;
+  }
+td {
+    text-align: center;
+}
+@media screen and (min-width: 1100px) {
+    table {
+      width: 1100px;
+    }
+}
